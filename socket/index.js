@@ -2,7 +2,7 @@
 import http from "http";
 import {Server} from 'socket.io';
 import { ethers } from "ethers";
-import NftBazzar from "../../Context/NFTBazzar.json" assert { type: 'json' };
+import NftBazzar from "../NFTBazzar.json" assert { type: 'json' };
 // import {NFTBazzarAddress} from "../../Context/constants.js"
 import {app} from "../app.js"
 import dotenv from 'dotenv'
